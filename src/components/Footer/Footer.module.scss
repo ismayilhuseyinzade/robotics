@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footerContainer{
+    color: white;
+    width: 100% ;
+    min-height: 40vh;
+    background-image: url("../../../src/images/footer-bg(1).jpg");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    p{
+        Span{
+            color: #AB92FC;
+        }
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            color: white;
+            padding: 12px;
+            background-color: rgba(0, 0, 0, 0.726);
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover{
+                background-color: #AB92FC;
+            }
+        }
+    }
+}
